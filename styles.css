@@ -1,0 +1,145 @@
+body{
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	background-color: #131313;
+	overflow: hidden;
+	font-size: 100%;
+	font-family: "Courier New" ,"Courier New", monospace;
+}
+.frame img{
+	display: block;
+	height: 100vh;
+	position: absolute;
+	right: 0;
+	padding-right: 15%;
+}
+.frame{
+	border-radius: 10px;
+	position: relative;
+}
+.portfolio, .socials, .contacts {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 45vw;
+    height: 10vh;
+    background-color: #333333;
+    border-radius: 10px;
+    font-size: 2em;
+    padding: 0 20px;
+    gap: 15px;  
+}
+.forcontent img {
+    width: 50px;
+	filter: invert(1);
+}
+p {
+    color: white;
+}
+.forcontent{
+	width: 45vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	gap: 2vh;
+	padding-left: 100px;
+	padding-top: 300px;
+	position: relative;
+	left: 0;
+}
+
+
+.portfolio:hover, .socials:hover, .contacts:hover {
+    transform: scale(1.05); 
+    opacity: 0.8; 
+	transition: transform 0.3s, opacity 0.3s;
+	cursor: pointer;
+}
+.intro {
+	align-items: center;
+    justify-content: center;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	
+}
+.typing {
+	font-family: "Courier New" ,"Courier New", monospace;
+    width: fit-content;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid white;
+    animation: typing 4s steps(74, end), 
+               blink-caret 1s step-end infinite;
+    color: white;
+	font-size:  1vw;
+}
+@keyframes typing {
+    from { 
+        width: 0 
+    }
+    to { 
+        width: 74ch 
+    }
+}
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white }
+}
+
+@media (max-width: 1200px) {
+	body {
+        width: 100vw;
+		height: 100vh;
+		margin: 0;
+		background-color: black;
+		overflow: hidden;
+    }
+	header {
+		display: block;
+		height: 5vh;
+		background-color: #333333;
+		margin-bottom: 20px;
+
+	}
+	.outerFrame{
+		width: 210px;
+		height: 320px;
+		background-color: white;
+		border-radius: 10px;
+		margin: 5px auto;
+		margin-bottom: -250px;
+		
+	}
+	.frame img{
+		display: inline-block;
+		width: 100%;
+		max-width: 200px;
+		height: 300px;
+		padding-right: 5px;
+		margin: 10px auto;
+		object-fit: cover;
+		border-radius: 10px;
+	}
+	.portfolio, .socials, .contacts {
+		width: 80vw;
+		height: 10vh;
+		font-size: 1.5em;
+		}
+	.forcontent{
+		align-items: center;
+		width: 100vw;
+		height: 100vh;
+		display: flex;
+		padding-left: 5px;
+		padding-right: 20px;
+	}
+	.forcontent img {
+		width: 30px;
+		filter: invert(1);
+	}
+	.typing {
+		font-size: 2vw;
+	}
+}
