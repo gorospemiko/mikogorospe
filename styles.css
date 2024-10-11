@@ -106,7 +106,7 @@ p {
 	.outerFrame{
 		width: 210px;
 		height: 320px;
-		background-color: #4A4A4A;
+		background-color: white;
 		border-radius: 10px;
 		margin: 5px auto;
 		margin-bottom: -250px;
