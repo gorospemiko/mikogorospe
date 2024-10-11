@@ -88,7 +88,7 @@ p {
     50% { border-color: white }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
 	body {
         width: 100vw;
 		height: 100vh;
