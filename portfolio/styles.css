@@ -1,0 +1,41 @@
+body{
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	background-color: #131313;
+	font-size: 100%;
+	font-family: "Courier New" ,"Courier New", monospace;
+	overflow-x: hidden;
+}
+.frame img{
+	display: block;
+	height: 100vh;
+	position: absolute;
+	right: 0;
+	padding-right: 15%;
+}
+.frame{
+	border-radius: 10px;
+	position: relative;
+}
+
+p{
+	color:white;
+}
+.container{
+	width: 100%;
+	display: flex;
+	gap: 30px;
+	padding-left: 50px;
+	padding-top: 10px;
+	background-color: #333333;
+}
+p.home, p.about, p.projects, p.experience, p.certificates {
+	cursor: pointer;
+}
+p.home:hover, p.about:hover, p.projects:hover, p.experience:hover, p.certificates:hover {
+	color: pink;
+}
+
+@media (max-width: 1200px) {
+}
