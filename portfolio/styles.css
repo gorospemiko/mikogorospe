@@ -51,6 +51,25 @@ p.home:hover, p.about:hover, p.projects:hover, p.experience:hover, p.certificate
 @media (max-width: 1200px) {
 	body{	
 	}
+	.outerFrame{
+		width: 210px;
+		height: 320px;
+		background-color: #4A4A4A;
+		border-radius: 10px;
+		margin: 5px auto;
+		margin-bottom: -250px;
+		
+	}
+	.frame img{
+		display: inline-block;
+		width: 100%;
+		max-width: 200px;
+		height: 300px;
+		padding-right: 5px;
+		margin: 10px auto;
+		object-fit: cover;
+		border-radius: 10px;
+	}
 	.bar-1{
 		background-color: white;
 		width: 20px;
