@@ -7,7 +7,7 @@ document.getElementById('socials').onclick = function() {
 };
 */
 document.getElementById('socials').onclick = function() {
-    window.location.href = 'www.linkedin.com/in/mikogorospe';
+    window.location.href = 'https://www.linkedin.com/in/mikogorospe';
 };
 
 /*
@@ -17,7 +17,7 @@ document.getElementById('contacts').onclick = function() {
 */
 
 document.getElementById('contacts').onclick = function() {
-    window.location.href = 'mailto:gorospemiko20@gmail.com?subject=Hello&body=I wanted to reach out because...';
+    window.location.href = 'mailto:gorospemiko20@gmail.com?subject=Good Day&body=I wanted to reach out because,';
 };
 
 
