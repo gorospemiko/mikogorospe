@@ -88,7 +88,7 @@ p {
     50% { border-color: white }
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
 	body {
 		overflow: visible;
 		overflow-x: hidden;
@@ -96,14 +96,14 @@ p {
 	header {
 		display: block;
 		height: 5vh;
-		background-color: #333333;
+		/*background-color: #333333;*/
 		margin-bottom: 20px;
 
 	}
 	.outerFrame{
 		width: 210px;
 		height: 320px;
-		background-color: white;
+		background-color: #4A4A4A;
 		border-radius: 10px;
 		margin: 5px auto;
 		margin-bottom: -250px;
