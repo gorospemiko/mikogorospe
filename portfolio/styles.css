@@ -116,7 +116,7 @@ p.home:hover, p.about:hover, p.projects:hover, p.experience:hover, p.certificate
 		margin: 2px 0;
 	}
 	p.home, p.about, p.projects, p.experience, p.certificates {
-		margin: -2px 0;
+		margin: 7px 0;
 		text-align: center;
 }
 
