@@ -23,12 +23,22 @@ p{
 	color:white;
 }
 .container{
+	position: sticky;
+	top: 0;
 	width: 100%;
 	display: flex;
 	gap: 30px;
 	padding-left: 50px;
 	padding-top: 10px;
 	background-color: #333333;
+	z-index: 10;
+}
+.content-drop{
+	display: flex;
+	gap: 30px;
+}
+.dropdown{
+	padding-left:30px;
 }
 p.home, p.about, p.projects, p.experience, p.certificates {
 	cursor: pointer;
@@ -38,4 +48,45 @@ p.home:hover, p.about:hover, p.projects:hover, p.experience:hover, p.certificate
 }
 
 @media (max-width: 1200px) {
+	body{	
+	}
+	.bar-1{
+		background-color: white;
+		width: 20px;
+		height: 2px;
+		
+	}
+	.bar-container{
+		padding: 10px;
+		display: flex;
+		flex-direction: column;
+		gap: 3px;
+		padding-left: 30px;
+		
+		}
+	.container{
+		align-items: center;
+	}
+	.dropdown{
+		padding-left:0;
+		position: relative;
+		display: inline-block;
+		
+	}
+	.content-drop {
+		display: none;
+		position: absolute;
+		background-color: black;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		padding: 12px 20px;
+		z-index: 20;
+		
+		}
+	.content-drop {
+		display: none;
+	}
+	.show {
+    display: block;
+	}
 }
