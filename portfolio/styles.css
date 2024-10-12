@@ -36,6 +36,7 @@ p{
 .content-drop{
 	display: flex;
 	gap: 30px;
+	
 }
 .dropdown{
 	padding-left:30px;
@@ -89,4 +90,5 @@ p.home:hover, p.about:hover, p.projects:hover, p.experience:hover, p.certificate
 	.show {
     display: block;
 	}
+
 }
