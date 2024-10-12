@@ -87,7 +87,7 @@ p.home:hover, p.about:hover, p.projects:hover, p.experience:hover, p.certificate
 		}
 	.container{
 		align-items: center;
-		margin-bottom: 15px;
+		margin-bottom: 20px;
 	}
 	.dropdown{
 		padding-left:0;
