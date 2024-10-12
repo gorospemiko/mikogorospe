@@ -17,7 +17,7 @@ document.getElementById('contacts').onclick = function() {
 */
 
 document.getElementById('contacts').onclick = function() {
-    window.location.href = 'mailto:gorospemiko20@gmail.com';
+    window.location.href = 'mailto:gorospemiko20@gmail.com?subject=Hello&body=I wanted to reach out because...';
 };
 
-window.location.href = 'mailto:gorospemiko20@gmail.com?subject=Hello&body=I wanted to reach out because...';
+
