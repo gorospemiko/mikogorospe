@@ -1,6 +1,20 @@
 document.getElementById('home').onclick = function() {
     window.location.href = '../index.html';
 };
+document.getElementById('about').onclick = function() {
+    window.location.href = 'about/index.html';
+};
+document.getElementById('projects').onclick = function() {
+    window.location.href = 'projects/index.html';
+};
+document.getElementById('experience').onclick = function() {
+    window.location.href = 'experience/index.html';
+};
+document.getElementById('certificates').onclick = function() {
+    window.location.href = 'certificates/index.html';
+};
+
+
 document.addEventListener("DOMContentLoaded", function () {
     const dropdown = document.querySelector(".dropdown");
     const contentDrop = document.querySelector(".content-drop");
