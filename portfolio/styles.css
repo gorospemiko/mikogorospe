@@ -1,3 +1,4 @@
+/*projects*/
 body{
 	width: 100vw;
 	height: 100vh;
@@ -78,7 +79,7 @@ p.home:hover, p.about:hover, p.projects:hover, p.experience:hover, p.certificate
 		border-radius: 10px;
 	}
 	.bar-1{
-		background-color: white;
+		background-color: #dbc7a2;
 		width: 20px;
 		height: 2px;
 		
@@ -91,9 +92,9 @@ p.home:hover, p.about:hover, p.projects:hover, p.experience:hover, p.certificate
 		padding-left: 30px;
 		}
 	.container{
-		border-bottom: 1px solid #dbc7a2;
 		align-items: center;
 		margin-bottom: 20px;
+		border-bottom: 1px solid #dbc7a2;
 	}
 	.dropdown{
 		padding-left:0;
@@ -111,9 +112,6 @@ p.home:hover, p.about:hover, p.projects:hover, p.experience:hover, p.certificate
 		padding: 6px 5px;
 		z-index: 20;
 		}
-	.content-drop {
-		display: none;
-	}
 	.show {
 		margin-left: 15px;
 		display: block;
