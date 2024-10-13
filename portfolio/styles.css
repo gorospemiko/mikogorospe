@@ -56,7 +56,10 @@ p.home:hover, p.about:hover, p.projects:hover, p.experience:hover, p.certificate
 	.outerFrame{
 		width: 210px;
 		height: 320px;
-		background-color: white;
+		background-color: black;
+		outline-style: solid;
+		outline-width: thin;
+		color: #dbc7a2;
 		border-radius: 10px;
 		margin: 5px auto;
 		margin-bottom: -250px;
