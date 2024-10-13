@@ -158,6 +158,7 @@ p {
 		animation: typing 3s steps(30, end);
 	}
 	span {
+		padding-top: 7px;
 		display: block;
 		overflow: hidden;
 		white-space: nowrap;
