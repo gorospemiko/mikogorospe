@@ -1,0 +1,131 @@
+/*experience*/
+body{
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	background-color: #131313;
+	font-size: 100%;
+	font-family: "Courier New" ,"Courier New", monospace;
+	overflow-x: hidden;
+}
+.frame img{
+	display: block;
+	height: 100vh;
+	position: absolute;
+	right: 0;
+	padding-right: 15%;
+}
+.frame{
+	border-radius: 10px;
+	position: relative;
+}
+
+
+p{
+	color:white;
+}
+.container{
+	border-bottom: 2px solid #dbc7a2;
+	opacity: 85%;
+	position: sticky;
+	top: 0;
+	width: 100%;
+	display: flex;
+	gap: 30px;
+	padding-left: 0;
+	padding-top: 10px;
+	background-color: #333333;
+	z-index: 10;
+}
+.content-drop{
+	display: flex;
+	gap: 20px;
+	
+}
+.dropdown{
+	padding-left:30px;
+}
+p.home, p.about, p.projects, p.experience, p.certificates {
+	cursor: pointer;
+}
+p.home:hover, p.about:hover, p.projects:hover, p.experience:hover, p.certificates:hover {
+	color: #dbc7a2;
+}
+p.experience{
+	color: #dbc7a2;
+}
+
+
+@media (max-width: 1200px) {
+	body{	
+	}
+	.outerFrame{
+		width: 210px;
+		height: 320px;
+		background-color: black;
+		outline-style: solid;
+		outline-width: thin;
+		color: #dbc7a2;
+		border-radius: 10px;
+		margin: 5px auto;
+		margin-bottom: -250px;
+		
+	}
+	.frame img{
+		display: inline-block;
+		width: 100%;
+		max-width: 200px;
+		height: 300px;
+		padding-right: 5px;
+		margin: 10px auto;
+		object-fit: cover;
+		border-radius: 10px;
+	}
+	.bar-1{
+		background-color: #dbc7a2;
+		width: 20px;
+		height: 2px;
+		
+	}
+	.bar-container{
+		padding: 10px;
+		display: flex;
+		flex-direction: column;
+		gap: 3px;
+		padding-left: 30px;
+		}
+	.container{
+		border-bottom: 1px solid #dbc7a2;
+		align-items: center;
+		margin-bottom: 20px;
+	}
+	.dropdown{
+		padding-left:0;
+		position: relative;
+		display: inline-block;
+	}
+	.content-drop {
+		opacity: 85%;
+		display: none;
+		position: absolute;
+		background-color: #333333;
+		border-radius: 3px;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		padding: 6px 5px;
+		z-index: 20;
+		}
+	.show {
+		margin-left: 15px;
+		display: block;
+	}
+	.divider {
+		border-bottom: 1px solid #dbc7a2;
+		margin: 2px 0;
+	}
+	p.home, p.about, p.projects, p.experience, p.certificates {
+		margin: 7px 0;
+		text-align: center;
+}
+
+}
