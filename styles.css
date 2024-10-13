@@ -30,18 +30,18 @@ p.typing{
 	outline-width: thin;
 	color: white;
 	/*added*/
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    width: 45vw;
-    height: 10vh;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	width: 45vw;
+	height: 10vh;
 	border-radius: 10px;
-    font-size: 2em;
-    padding: 0 20px;
-    gap: 15px;  
+	font-size: 2em;
+	padding: 0 20px;
+	gap: 15px;  
 }
 .forcontent img {
-    width: 50px;
+	width: 50px;
 	filter: invert(1);
 }
 p {
@@ -95,7 +95,7 @@ p {
 }
 @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: white }
+    50% { border-color: #dbc7a2 }
 }
 
 @media (max-width: 1200px) {
