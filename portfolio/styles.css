@@ -24,6 +24,8 @@ p{
 	color:white;
 }
 .container{
+	border-bottom: 2px solid #dbc7a2;
+	opacity: 85%;
 	position: sticky;
 	top: 0;
 	width: 100%;
@@ -46,7 +48,7 @@ p.home, p.about, p.projects, p.experience, p.certificates {
 	cursor: pointer;
 }
 p.home:hover, p.about:hover, p.projects:hover, p.experience:hover, p.certificates:hover {
-	color: pink;
+	color: #dbc7a2;
 }
 
 
@@ -89,6 +91,7 @@ p.home:hover, p.about:hover, p.projects:hover, p.experience:hover, p.certificate
 		padding-left: 30px;
 		}
 	.container{
+		border-bottom: 1px solid #dbc7a2;
 		align-items: center;
 		margin-bottom: 20px;
 	}
@@ -98,6 +101,7 @@ p.home:hover, p.about:hover, p.projects:hover, p.experience:hover, p.certificate
 		display: inline-block;
 	}
 	.content-drop {
+		opacity: 85%;
 		display: none;
 		position: absolute;
 		background-color: #333333;
@@ -115,7 +119,7 @@ p.home:hover, p.about:hover, p.projects:hover, p.experience:hover, p.certificate
 		display: block;
 	}
 	.divider {
-		border-bottom: 1px solid white;
+		border-bottom: 1px solid #dbc7a2;
 		margin: 2px 0;
 	}
 	p.home, p.about, p.projects, p.experience, p.certificates {
