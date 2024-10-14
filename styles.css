@@ -42,10 +42,9 @@ p.typing{
 }
 .forcontent img {
     width: 50px;
-	filter: invert(1);
 }
 p {
-    color: #e5e2dd;
+    color: black;
 }
 .forcontent{
 	width: 45vw;
