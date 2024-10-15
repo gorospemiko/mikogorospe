@@ -131,7 +131,8 @@ const certificates = [
 
 
 
-const colors = ["#dde1ea", "#ffe996", "#fff3cd", "#bacce3", "#87e5ff", "#87e5ff", "#b7b6e2" , "#a1ff96", "#87e5ff", "#87e5ff", "#87e5ff", "#96ffd6"]; 
+const colors = ["#36363EBF"]; 
+//#dde1ea", "#ffe996", "#fff3cd", "#bacce3", "#87e5ff", "#87e5ff", "#b7b6e2" , "#a1ff96", "#87e5ff", "#87e5ff", "#87e5ff", "#96ffd6"
 
 // Function to render certificates
 function renderCertificates(certificates) {
