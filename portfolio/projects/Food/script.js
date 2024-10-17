@@ -114,7 +114,7 @@ submitButton.addEventListener('click', function() {
 
 
         //computaion
-        var results = multiplier * finalValuesArray[index];
+        var results = (multiplier * finalValuesArray[index]).toFixed(2);
         console.log(results, finalString);
         //var results = (finalValues/ingredient_value_final).toFixed(2);
 
