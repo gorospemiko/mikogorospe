@@ -45,7 +45,7 @@ class FeaturedViewModel {
 const certificates = [
 new FeaturedViewModel(
   "Scale Up: Food",
-  "To scale up or down the ammount of ingredients that is needed to create a dish",
+  "To scale up or down the amount of ingredients that is needed to create a dish",
   "October 17, 2024",
   "index.html",
   "foodproject.JPG"
