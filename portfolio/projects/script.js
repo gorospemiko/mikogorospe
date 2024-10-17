@@ -48,7 +48,7 @@ new FeaturedViewModel(
   "To scale up or down the ammount of ingredients that is needed to create a dish",
   "October 17, 2024",
   "index.html",
-  "foodproject.jpg"
+  "foodprojectweb.png"
   ),
 
 ];
@@ -69,7 +69,7 @@ function renderCertificates(certificates) {
       
           <h2>${certificate.header}</h2>
           <h3>${certificate.title}</h3>
-          <p><strong>Issued:</strong> ${certificate.postedDate}</p>
+          <p><strong>Date Posted:</strong> ${certificate.postedDate}</p>
           <a href="Food/${certificate.otherLink}">View Project</a>
           <img src="Food/${certificate.imageUrl}" alt="${certificate.header} image">
           
