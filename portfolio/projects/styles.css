@@ -2,7 +2,7 @@
 .certificate-card {
 	border: 1px solid #ddd;
 	width: 100%;
-	height: 50vh;
+	height: 42vh;
 	vertical-align: top;
 	position: relative;
 	display: inline-block;
@@ -35,8 +35,6 @@
 }
 .certificate-card a:hover {
 	color: #dbc7a2;
-	transform: scale(1.05); /* Slightly enlarge on hover */
-    transition: transform 0.3s ease; /* Smooth transition */
 }
 .certificate-card a{
 	font-size: 0.9em;
@@ -235,7 +233,7 @@ p.projects{
 	.certificate-card a{
 		font-size: 0.9em;
 		padding-left: 10px;
-		padding-bottom: 30px;
+		margin-bottom: 30px;
 		margin-top: -10px;
 		order: 3;
 	}
