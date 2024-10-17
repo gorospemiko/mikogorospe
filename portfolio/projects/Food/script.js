@@ -114,11 +114,11 @@ submitButton.addEventListener('click', function() {
 
 
         //computaion
-        var results = (multiplier * finalValuesArray[index]).toFixed(2);
-        console.log(results, finalString);
-        //var results = (finalValues/ingredient_value_final).toFixed(2);
+        var results = (multiplier * finalValuesArray[index]);
+		let finalResult = (results % 1 === 0) ? Number(results.toFixed(0)) : Number(results.toFixed(2)); //coverted back to number kasi kapag ginamit yung toFixed nagigigng string
+        console.log(finalResult, finalString);
 
-        containerforvalues.innerHTML = `<p>${results} ${finalString}</p>`;
+        containerforvalues.innerHTML = `<p>${finalResult} ${finalString}</p>`;
         resultsContainer.appendChild(containerforvalues);
     });
     multiplier = null;
