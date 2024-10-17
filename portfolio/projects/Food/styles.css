@@ -11,7 +11,8 @@ body {
     margin: 0;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;
+
 }
 label.titleapp{
     font-size: 2em;
@@ -102,7 +103,7 @@ textarea.ingredient-area, .i-have-input{
     width: 100%; 
     margin: 20px 20px -5px 20px;
     border-radius: 8px;
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.6);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     color: rgb(202, 202, 202);
     border: 1px solid rgba(255, 255, 255, 0.3);
