@@ -48,7 +48,7 @@ new FeaturedViewModel(
   "To scale up or down the ammount of ingredients that is needed to create a dish",
   "October 17, 2024",
   "index.html",
-  "foodprojectweb.png"
+  "foodproject.jpg"
   ),
 
 ];
